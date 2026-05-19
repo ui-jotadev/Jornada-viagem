@@ -9,6 +9,16 @@
     --title-weight: 700;
     --text-weight: 400;
     --menu-text-weight: 500;
+
+    --primary-color:#B81515;
+    --secundary-color:#8F0101;
+
+    --background-primary-color:#FFFFFF;
+    --background-secundary-color:#F5F5F5;
+    --background-tertiary-color:#000000;
+
+    --primary-text-color:#222222;
+    --secundary-text-color:#FFFFFF;
 }
 
 body, img, h1, p, fieldset, legend, label, input, select, textarea, button {
