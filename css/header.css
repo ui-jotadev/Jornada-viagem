@@ -9,9 +9,17 @@ header{
 }
 
 .logo{
-    display: inline-block;
+    display: block;
     width: 68px;
     height: 64px;
+}
+
+.logo-mobile{
+    display: block;
+}
+
+.logo-desktop{
+    display: none;
 }
 
 nav{
@@ -74,4 +82,24 @@ input[type="checkbox"]:checked ~ nav {
     font-weight: var(--menu-text-weight);
     font-size: 24px;
 }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo-mobile{
+        display: none;
+    }
+
+    .logo-desktop{
+        display: block;
+    }
+
+        header {
+    padding: 38px 160px;
+    }
+
+    .list-links a:hover{
+        color: var(--primary-color);
+    }
+
+
 }
